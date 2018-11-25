@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="119px" viewBox="0 0 119 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>team-hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Team-hover" transform="translate(-660.000000, -1507.000000)">
+            <g id="Group-6" transform="translate(245.000000, 1408.000000)">
+                <g id="team-hover" transform="translate(416.000000, 100.000000)">
+                    <g>
+                        <circle id="Oval" fill="#FFFFFF" cx="58.5" cy="58.5" r="46.8"></circle>
+                        <path d="M57.33,47.97 L57.33,69.03" id="Line-2" stroke="#E30D13" stroke-linecap="square"></path>
+                        <path d="M69.0267925,57.33 L47.97,57.6975477" id="Line-2" stroke="#E30D13" stroke-linecap="square"></path>
+                        <circle id="Oval" stroke="#FFFFFF" cx="58.5" cy="58.5" r="58.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

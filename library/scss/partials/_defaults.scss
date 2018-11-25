@@ -1,0 +1,61 @@
+/******************************************************************
+
+Stylesheet: Defaults/General Styles
+
+******************************************************************/
+
+
+
+body {
+  color: #000;
+  margin: 0 auto; 
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+}
+
+* { -webkit-hyphens: none; }
+
+a {
+	color: $text-color;
+	-webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+	&:hover,
+ 	&:focus {
+		//color: $darkblue;
+    outline:0;
+	}
+}
+
+[role="button"] {
+  cursor: pointer;
+}
+
+
+.max-width-inner {
+  position: relative;
+  max-width: 850px;
+  // max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.max-width-outer {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+
+// Add utility classes here e.g. .u-bg-cover
+
+
+.u-bg-cover {
+	background-size: cover;
+}
+.u-bg-cen {
+  background-position: center;
+}
+
+
+.rel {
+  position: relative;
+}
+
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+       -o-transition: opacity .15s linear;
+          transition: opacity .15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.show-on-sm {
+  display: none;
+}
+@media all and (max-width: 991px) {
+  .hide-on-sm {
+    display: none;
+  }
+  .show-on-sm {
+    display: block;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .hide-on-xs {
+    display: none;
+  }
+}
+
+.hide-on-600 {
+  display: block;
+}
+.show-on-600 {
+  display: none;
+}
+@media all and (max-width: 600px) {
+  .hide-on-600 {
+    display: none;
+  }
+  .show-on-600 {
+    display: block;
+  }
+}
+
+.show-on-480 {
+  display: none;
+}
+@media all and (max-width: 480px) {
+  .hide-on-480 {
+    display: none;
+  }
+  .show-on-480 {
+    display: block;
+  }
+}
+
+
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+
+

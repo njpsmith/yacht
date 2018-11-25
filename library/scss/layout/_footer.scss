@@ -1,0 +1,134 @@
+
+
+.l-footer {
+	font-family: 'Ropa Sans';
+	color: #40464A;
+	letter-spacing: 0.75px;
+	a {
+		text-decoration: none;
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+	}	
+	.__inner {
+		@include flexbox;
+		padding: 65px 2px 45px;
+		@media (max-width: 850px) {
+			display: block;
+			padding-top: 45px;
+		}
+	}
+	h5 {
+		margin-top: 0;
+		color: #014A99;
+		text-transform: uppercase;
+    letter-spacing: 4.33px;
+    font-family: 'Roboto';
+    font-weight: 400;
+		font-size: 13px;
+	}
+}
+.footer-right {
+	@include flexbox;
+	@media (max-width: 850px) {
+		margin-top: 50px;	
+		display: block;
+	}
+}
+.footer-left,
+.footer-right {
+	width: 50%;
+	@media (max-width: 850px) {
+		width: 100%;
+	}
+}
+.footer-nav {
+	ul a {
+		font-size: 18px;
+		line-height: 1.52;
+		color: #40464A;
+	}
+}
+
+.footer-top {
+	background-color: #FFFFFF;
+}
+.footer-left {
+	.logo img {
+		max-width: 316px;
+	}
+}
+.footer-contact {
+	padding-left: 60px;
+	font-size: 18px;
+	line-height: 1.62;
+	@media (max-width: 850px) {
+		padding-left: 0;
+		margin-top: 40px;
+	}
+	a {
+    color: #40464A;
+	}
+}
+.l-footer__social {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	-webkit-align-items: flex-end;
+	-moz-align-items: flex-end;
+	align-items: flex-end;
+	-webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-left: -10px;
+  a:hover,
+  a:focus {
+  	opacity: 0.8;
+  }
+  .l-insta:hover, .l-insta:focus {
+    background-image: url(../images/Icons/Navigation/nav-instagram-icon@2x.png);
+  }
+  .l-linked-in:hover, .l-linked-in:focus {
+    background-image: url(../images/Icons/Navigation/nav-linkedin-icon@2x.png);
+  }
+  .l-twitter:hover, .l-twitter:focus {
+    background-image: url(../images/Icons/Navigation/nav-twitter-icon@2x.png);
+  }
+}
+
+.footer-legal-links {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	color: #ADAFB1;
+	@media (max-width: 850px) {
+		margin-top: 30px;
+	}
+	a {
+		line-height: 1.62;
+		letter-spacing: 1px;
+		text-decoration: underline;
+		color: #ADAFB1;
+	}
+}
+
+.footer-bottom {
+	background-color: #F0F0F0;
+	color: #40464A;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	font-family: 'Ropa Sans';
+}
+.footer-bottom__inner {
+	@include flexbox;
+	@include justify-content(space-between);
+	@media (max-width: 850px) {
+		display: block;	
+    padding-top: 5px;
+    padding-bottom: 5px;
+	}
+}

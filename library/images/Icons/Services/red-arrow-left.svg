@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="45px" viewBox="0 0 47 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>red-arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services" transform="translate(-1099.000000, -2460.000000)">
+            <g id="quote" transform="translate(0.000000, 2207.000000)">
+                <g id="red-arrows" transform="translate(1122.500000, 275.500000) scale(-1, 1) translate(-1122.500000, -275.500000) translate(1099.000000, 253.000000)">
+                    <rect id="Rectangle-2" fill="#E30D13" x="0" y="0" width="47" height="45"></rect>
+                    <g id="white-arrow-right" transform="translate(16.378788, 19.090909)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="1">
+                        <g id="arrow">
+                            <polyline id="Path-5" points="0 3.5 15 3.5 11.4716253 0"></polyline>
+                            <polyline id="Path-5" transform="translate(7.500000, 5.250000) scale(1, -1) translate(-7.500000, -5.250000) " points="0 7 15 7 11.4716253 3.5"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

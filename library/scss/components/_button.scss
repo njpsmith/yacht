@@ -1,0 +1,71 @@
+
+
+.c-btn {
+	display: inline-block;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #E30D13;
+	text-align: center;
+	padding: 15px 25px;
+	// opacity: 0.8;
+	font-family: 'Roboto';
+	font-family: 'Ropa Sans';
+	font-size: 15px;
+	color: #10181D;
+	letter-spacing: 1px;
+	line-height: 28px;
+	border-radius: 3px;
+	&:hover,
+	&:focus {
+		background-color: #E30D13;
+		color: #fff;
+	}
+}
+
+.c-btn--tc-1 {
+}
+.c-btn--tc-2 {
+	color: #fff;
+}
+
+p + .c-btn {
+	margin-top: 55px;
+}
+
+.c-btn-large {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-decoration: none;
+	@include flexbox;
+	@include justify-content(center);
+	@include align-items(center);
+	background-color: #E30D14;
+	border-radius: 4px;
+	padding-right: 13px;
+	padding-left: 35px;
+	color: #fff;
+	font-family: 'Ropa Sans';
+	font-size: 18px;
+	letter-spacing: 1px;
+	min-width: 214px;
+	&:hover,
+	&:focus {
+		// background: transparent;
+		color: #fff;
+	}
+	img {
+		width: 66px;
+	}
+}
+
+
+
+
+

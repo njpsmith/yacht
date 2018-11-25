@@ -1,0 +1,149 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Main Stylesheet
+******************************************************************/
+
+
+
+/*********************
+  STYLING GUIDELINES
+*********************/
+// BEM (block__element--modifier)
+// Namespaces  -  http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+
+// The most common types of namespace are c-, for Components, o-, for Objects, u-, for Utilities, and is-/has- for States (there are plenty more detailed in the linked post). With this in mind, the above HTML would be rewritten as this:
+
+// E.g.
+// <div class="o-grid">
+//   <div class="o-grid__cell u-size-1-of-2">
+//     <div class="c-dropdown c-dropdown--large js-toggle-colors">(...)</div>
+//   </div>
+// </div>
+
+
+/*
+
+- Layout is for things like header, footer, sidebar
+- Modules are repeatable items e.g. hero, cards
+- Components are smaller, universal items that aren't big enough to be modules. E.g. buttons. Their styling can easily be overwritten by Layout or Module styles, hence why they appear first in the stylesheet
+- Pages are for page specific styles. Try avoiding these if possible and use modules instead
+
+*/
+
+
+
+
+
+
+/*********************
+BASE
+*********************/
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+
+// Sass variables
+@import "partials/variables";
+
+// typography
+@import "partials/typography";
+
+// Utility classes
+@import "partials/utility";
+
+@import "partials/flexbox-mixins";
+
+// Import defaults - E.g. default link colour
+@import "partials/defaults";
+
+
+
+
+
+
+/*********************
+LIBRARIES
+*********************/ 
+@import "libs/bootstrap-grid";
+@import "libs/slick-slider";
+
+// Animated hamburger icons (pure CSS) - https://jonsuh.com/hamburgers/
+// @import "partials/tasty-hamburger";
+
+
+
+
+
+
+/*********************
+COMPONENTS (c-)
+*********************/
+@import "components/button";
+@import "components/line";
+
+
+
+
+
+/*********************
+LAYOUT (l-)
+*********************/
+@import "layout/header";
+@import "layout/footer";
+
+
+
+
+
+
+/*********************
+MODULES (m-)
+*********************/
+@import "modules/modules";
+
+
+
+
+
+
+
+
+/*********************
+PAGES
+*********************/
+@import "pages/homepage";
+
+
+
+
+
+
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+@media print {
+	// styles in print.scss
+	@import "partials/print";
+}
+
+
+
+
+
+
+
+
+/***********************
+    IE STYLES
+***********************/
+@import "partials/ie";
+
+
+
+
+

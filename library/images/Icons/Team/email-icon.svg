@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="19px" viewBox="0 0 26 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>email-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Team-pop-up" transform="translate(-815.000000, -1561.000000)" fill="#E30D13">
+            <g id="email-icon" transform="translate(815.000000, 1561.000000)">
+                <g id="Group-5">
+                    <polygon id="Fill-1" points="17.0352 9.5203441 25.9867696 17.6452087 25.9867696 1.3951476"></polygon>
+                    <polygon id="Fill-2" points="13.0000329 13.182955 10.4406785 10.8598109 1.4759443 18.9966231 24.5241215 18.9966231 15.5593051 10.8598109"></polygon>
+                    <polygon id="Fill-3" points="1.47590316 0.0436585153 12.9999918 10.5036148 24.5241627 0.0436585153"></polygon>
+                    <polygon id="Fill-4" points="0 17.6571812 8.96481646 9.520369 0 1.38322489"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

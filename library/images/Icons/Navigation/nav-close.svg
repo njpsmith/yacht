@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="99px" viewBox="0 0 99 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation" transform="translate(-1097.000000, 0.000000)">
+            <g id="nav-close" transform="translate(1097.000000, 0.000000)">
+                <g id="nav">
+                    <rect id="Rectangle-2" fill="#E30D13" x="0" y="0" width="99" height="99"></rect>
+                    <g id="Group-2" transform="translate(24.000000, 25.000000)">
+                        <g id="hamburger" transform="translate(25.500000, 15.000000) scale(-1, 1) rotate(-315.000000) translate(-25.500000, -15.000000) translate(6.000000, 14.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="2">
+                            <path d="M0.423913043,0.875 L38.576087,0.875" id="Line-Copy"></path>
+                            <path d="M0.423913043,0.875 L38.576087,0.875" id="Line-Copy" transform="translate(19.500000, 0.875000) scale(-1, 1) translate(-19.500000, -0.875000) "></path>
+                        </g>
+                        <g id="hamburger" transform="translate(25.500000, 15.000000) rotate(-315.000000) translate(-25.500000, -15.000000) translate(6.000000, 14.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="2">
+                            <path d="M0.423913043,0.875 L38.576087,0.875" id="Line-Copy"></path>
+                            <path d="M0.423913043,0.875 L38.576087,0.875" id="Line-Copy" transform="translate(19.500000, 0.875000) scale(-1, 1) translate(-19.500000, -0.875000) "></path>
+                        </g>
+                        <text id="close" font-family="RopaSansPro-Regular, Ropa Sans Pro" font-size="14" font-weight="normal" letter-spacing="3" fill="#FFFFFF">
+                            <tspan x="1.644" y="52">CLOSE</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
